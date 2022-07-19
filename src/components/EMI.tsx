@@ -65,41 +65,41 @@ export default function EMI() {
             <input
               type="radio"
               name="payment"
-              value="2333.3"
-              checked={emi === "2333.3"}
+              value="7000"
+              checked={emi === "7000"}
               onChange={handleChange}
             />
             <label htmlFor="payment1">1 payment due</label>
           </div>
-          <label htmlFor="payment1">€2333.3</label>
+          <label htmlFor="payment1">€7000</label>
         </StyledPaper>
         <StyledPaper elevation={2}>
           <div>
             <input
               type="radio"
               name="payment"
-              value="2333.3"
+              value="3500"
               id="payment2"
-              checked={emi === "2333.3"}
+              checked={emi === "3500"}
               onChange={handleChange}
             />
             <label htmlFor="payment2">2 payment</label>
           </div>
-          <label htmlFor="payment2">€2333.3</label>
+          <label htmlFor="payment2">€3500</label>
         </StyledPaper>
         <StyledPaper elevation={2}>
           <div>
             <input
               type="radio"
               name="payment"
-              value="2333.3"
+              value="2333"
               id="payment3"
-              checked={emi === "2333.3"}
+              checked={emi === "2333"}
               onChange={handleChange}
             />
             <label htmlFor="payment3">3 payment</label>
           </div>
-          <label htmlFor="payment3">€2333.3</label>
+          <label htmlFor="payment3">€2333</label>
         </StyledPaper>
       </StyledBox>
       <StyledButton
